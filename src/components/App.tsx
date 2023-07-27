@@ -1,15 +1,11 @@
-import { MyComponent } from "./MyComponent";
 import "./App.css";
-import { greet } from "../greet";
 
-function App() {
+export default function App() {
     return (
-        <div className="App">
-            <MyComponent />
-
-            {greet("World")}
-        </div>
+        <main className="App">
+            Think of an animal from this list and I will try to guess it!
+            <div>TODO: your stuff goes here</div>
+            <button>Restart</button>
+        </main>
     );
 }
-
-export default App;
