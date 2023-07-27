@@ -9,11 +9,11 @@ export default function createTree(): Tree {
             question: "Does the animal live in water?",
             yesSubtree: {
                 kind: "leaf",
-                result: "sea otter",
+                result: "Sea otter",
             },
             noSubtree: {
                 kind: "leaf",
-                result: "grizzly bear",
+                result: "Grizzly bear",
             },
         },
         noSubtree: {
@@ -24,16 +24,16 @@ export default function createTree(): Tree {
                 question: "Does the animal fly?",
                 yesSubtree: {
                     kind: "leaf",
-                    result: "bald eagle",
+                    result: "Bald eagle",
                 },
                 noSubtree: {
                     kind: "leaf",
-                    result: "penguin",
+                    result: "Penguin",
                 },
             },
             noSubtree: {
                 kind: "leaf",
-                result: "snake",
+                result: "Snake",
             },
         },
     };
